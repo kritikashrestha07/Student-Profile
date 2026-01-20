@@ -1,0 +1,140 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default: Dark Theme */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #0b0f0e;   /* deep dark */
+    color: #e5e7eb;
+    transition: all 0.3s ease; /* smooth transition for theme change */
+}
+
+/* Header */
+header {
+    background-color: #060807;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid #1f7a63; /* dark green */
+    transition: all 0.3s ease;
+}
+
+h1 {
+    color: #d1fae5; /* soft green-white */
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+h2, h3 {
+    color: #34d399; /* luxury green */
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+/* Paragraph */
+p {
+    font-size: 15px;
+    margin: 6px 0;
+    color: #d1d5db;
+}
+
+/* Section Cards */
+.section-box {
+    background-color: #0f1413;
+    border: 1px solid #1f2937;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+/* Profile Image */
+.profile-section img {
+    display: block;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    border: 3px solid #1f7a63;
+}
+
+/* ID Selector */
+#student-name {
+    color: #6ee7b7;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* Descendant Selectors */
+.course-list li {
+    margin-left: 22px;
+    color: #a7f3d0;
+}
+
+.hobby-list li {
+    margin-left: 22px;
+    color: #93c5fd;
+}
+
+/* Footer */
+footer {
+    background-color: #060807;
+    color: #9ca3af;
+    text-align: center;
+    padding: 18px;
+    border-top: 2px solid #1f7a63;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* ================== Light Theme ================== */
+body.light-theme {
+    background-color: #f9fafb;
+    color: #1f2937;
+}
+
+body.light-theme header {
+    background-color: #e5e7eb;
+    border-bottom: 2px solid #34d399;
+}
+
+body.light-theme h1 {
+    color: #047857;
+}
+
+body.light-theme h2,
+body.light-theme h3 {
+    color: #059669;
+}
+
+body.light-theme p {
+    color: #374151;
+}
+
+body.light-theme .section-box {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+}
+
+body.light-theme .profile-section img {
+    border: 3px solid #34d399;
+}
+
+body.light-theme #student-name {
+    color: #059669;
+}
+
+body.light-theme .course-list li {
+    color: #10b981;
+}
+
+body.light-theme .hobby-list li {
+    color: #3b82f6;
+}
+
+body.light-theme footer {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    border-top: 2px solid #34d399;
+}
